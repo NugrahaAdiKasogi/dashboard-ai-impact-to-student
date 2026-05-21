@@ -6,6 +6,9 @@ A modern, responsive, and interactive web dashboard built to visualize the impac
 
 # Project Overview
 
+> 🚀 **Live Demo:** [https://ai-student-impact-dashboard.vercel.app](https://ai-student-impact-dashboard.vercel.app)
+> ![Dashboard Preview](preview.png)
+
 This project seamlessly bridges Data Engineering and Frontend Web Development. It pulls cleaned and modeled data (Star Schema) via Supabase API and transforms raw metrics into actionable insights using declarative React components and interactive charts.
 
 ## Key Features
@@ -78,6 +81,21 @@ npm run dev
 
 
 Open `http://localhost:5173` to view it in the browser.
+
+---
+
+---
+
+## Deployment
+
+This application is hosted and deployed using **Vercel**. Continuous Integration and Continuous Deployment (CI/CD) are configured to automatically trigger a production build on every push to the `main` branch.
+
+### Configuring Environment Variables on Vercel
+Since the `.env` file is ignored by Git, you must manually add the project credentials in the Vercel Dashboard:
+1. Go to your **Vercel Project Settings** > **Environment Variables**.
+2. Add `VITE_SUPABASE_URL` with your Supabase Project URL.
+3. Add `VITE_SUPABASE_ANON_KEY` with your Supabase Anon Key.
+4. Redeploy the project to apply the changes.
 
 ---
 
