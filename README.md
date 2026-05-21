@@ -6,7 +6,7 @@ A modern, responsive, and interactive web dashboard built to visualize the impac
 
 # Project Overview
 
-> 🚀 **Live Demo:** [https://ai-student-impact-dashboard.vercel.app](https://ai-student-impact-dashboard.vercel.app)
+> 🚀 **Live Demo:** [https://dashboard-ai-impact-to-student.vercel.app/](https://dashboard-ai-impact-to-student.vercel.app/)
 > ![Dashboard Preview](preview.png)
 
 This project seamlessly bridges Data Engineering and Frontend Web Development. It pulls cleaned and modeled data (Star Schema) via Supabase API and transforms raw metrics into actionable insights using declarative React components and interactive charts.
